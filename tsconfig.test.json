@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "declaration": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/types": ["./src/types.ts"]
+    },
+    "sourceMap": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"],
+  "extends": "./tsconfig.json"
+}

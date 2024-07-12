@@ -1,0 +1,10 @@
+node_modules
+build
+docs
+dist
+dev.js
+generated
+public
+.env
+test_public
+.size-snapshot.json
